@@ -8,7 +8,7 @@ jobs:
     steps:
       - checkout
       - run:
-          name: "Install dependencies"
+          name: "Install dependencies and lint"
           command: |
             echo "hello test"
             python3 -m venv venv
